@@ -1,0 +1,195 @@
+{
+  "tipos_arroz": [
+    {
+      "id": 1,
+      "descricao": "Arroz Tradicional (Shari)"
+    },
+    {
+      "id": 2,
+      "descricao": "Arroz Integral"
+    },
+    {
+      "id": 3,
+      "descricao": "Sem Arroz (Apenas Proteína)"
+    }
+  ],
+  "status_pedido": [
+    {
+      "id": 1,
+      "descricao": "Pedido em espera"
+    },
+    {
+      "id": 2,
+      "descricao": "Em produção"
+    },
+    {
+      "id": 3,
+      "descricao": "A caminho"
+    },
+    {
+      "id": 4,
+      "descricao": "Entregue"
+    },
+    {
+      "id": 5,
+      "descricao": "Pedido pendente"
+    },
+    {
+      "id": 6,
+      "descricao": "Pedido realizado"
+    }
+  ],
+  "pedidos": [
+    {
+      "nome": "João Bernardo",
+      "arroz": {
+        "id": 1,
+        "descricao": "Arroz Tradicional (Shari)"
+      },
+      "bebidas": [
+        {
+          "id": 1,
+          "nome": "Coca Cola Lata 310 ml",
+          "descricao": "",
+          "valor": 6,
+          "eh_novidade": false
+        }
+      ],
+      "complementos": [
+        {
+          "id": 2,
+          "nome": "Porção de Sunomono",
+          "descricao": "Salada refrescante de pepino agridoce com gergelim.",
+          "valor": 12,
+          "eh_novidade": false
+        }
+      ],
+      "sushi": {
+        "id": 2,
+        "nome": "Poke Havaiano",
+        "descricao": "Tigela com base de arroz, cubos de salmão, manga, edamame, chips de batata doce e molho tarê.",
+        "valor": 42,
+        "eh_novidade": true
+      },
+      "statusId": 3,
+      "id": 1
+    }
+  ],
+  "opcionais": {
+    "complemento": [
+      {
+        "id": 1,
+        "nome": "Combo Bebida + Guioza",
+        "descricao": "3 unidades de guioza suíno grelhado na chapa + bebida de sua escolha",
+        "valor": 18,
+        "eh_novidade": true
+      },
+      {
+        "id": 2,
+        "nome": "Porção de Sunomono",
+        "descricao": "Salada refrescante de pepino agridoce com gergelim.",
+        "valor": 12,
+        "eh_novidade": false
+      },
+      {
+        "id": 3,
+        "nome": "Edamame",
+        "descricao": "Favas de soja verde cozidas no vapor com toque de sal marinho.",
+        "valor": 15,
+        "eh_novidade": false
+      }
+    ],
+    "bebidas": [
+      {
+        "id": 1,
+        "nome": "Coca Cola Lata 310 ml",
+        "descricao": "",
+        "valor": 6,
+        "eh_novidade": false
+      },
+      {
+        "id": 2,
+        "nome": "Chá Verde Gelado 350 ml",
+        "descricao": "Tradicional chá verde sem açúcar.",
+        "valor": 8,
+        "eh_novidade": true
+      },
+      {
+        "id": 3,
+        "nome": "Saquê Junmai 50ml",
+        "descricao": "Dose de saquê premium importado.",
+        "valor": 15,
+        "eh_novidade": false
+      },
+      {
+        "id": 4,
+        "nome": "Água Tônica Lata 350 ml",
+        "descricao": "",
+        "valor": 6,
+        "eh_novidade": false
+      }
+    ]
+  },
+  "menu": {
+    "limitado": [
+      {
+        "id": 1,
+        "nome": "Combinado do Chef Premium",
+        "descricao": "Seleção especial com 20 peças, incluindo polvo, vieiras, camarão empanado e barriga de salmão trufada. Feito para paladares exigentes.",
+        "valor": 89,
+        "eh_novidade": true
+      }
+    ],
+    "sushis": [
+      {
+        "id": 1,
+        "nome": "Temaki Salmão Completo",
+        "descricao": "Cone de alga crocante recheado com salmão fresco, cream cheese, cebolinha e gergelim torrado.",
+        "valor": 35,
+        "eh_novidade": true
+      },
+      {
+        "id": 2,
+        "nome": "Poke Havaiano",
+        "descricao": "Tigela com base de arroz, cubos de salmão, manga, edamame, chips de batata doce e molho tarê.",
+        "valor": 42,
+        "eh_novidade": true
+      },
+      {
+        "id": 3,
+        "nome": "Combinado Uramaki (16 un)",
+        "descricao": "Enrolados de arroz por fora com gergelim, recheados com salmão, atum e peixe branco.",
+        "valor": 45,
+        "eh_novidade": false
+      },
+      {
+        "id": 4,
+        "nome": "Hot Roll Especial (10 un)",
+        "descricao": "Sushis empanados e fritos, recheados com salmão e cream cheese, finalizados com molho tarê e cebolinha.",
+        "valor": 30,
+        "eh_novidade": true
+      },
+      {
+        "id": 5,
+        "nome": "Sashimi Misto (15 fatias)",
+        "descricao": "Cortes precisos e frescos de Salmão (5), Atum (5) e Peixe Branco (5).",
+        "valor": 55,
+        "eh_novidade": false
+      },
+      {
+        "id": 6,
+        "nome": "Hossomaki de Pepino (Kappamaki)",
+        "descricao": "Tradicional enrolado fino de alga por fora, recheado com arroz e pepino refrescante. (8 unidades)",
+        "valor": 20,
+        "eh_novidade": false
+      },
+      {
+        "id": 7,
+        "nome": "Nigiri Salmão Trufado",
+        "descricao": "Dupla de bolinhos de arroz moldados à mão, cobertos com fatias de salmão fresco, azeite trufado e flor de sal.",
+        "valor": 18,
+        "eh_novidade": true
+      }
+    ]
+  }
+}
