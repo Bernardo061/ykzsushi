@@ -1,7 +1,8 @@
-import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
+const { defineConfig } = require("@vue/cli-service");
 
-export default defineConfig({
-  plugins: [vue()],
-  base: '/ykzsushi/' // <--- ADICIONE ESTA LINHA EXATAMENTE ASSIM
-})
+module.exports = defineConfig({
+  transpileDependencies: true,
+  // Em produção (GitHub Pages) os arquivos ficam em /<nome-do-repo>/.
+  // Ajuste "ykzsushi" para o nome exato do seu repositório no GitHub.
+  publicPath: process.env.NODE_ENV === "production" ? "/ykzsushi/" : "/",
+});
